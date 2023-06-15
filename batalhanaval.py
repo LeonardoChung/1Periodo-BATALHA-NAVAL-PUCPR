@@ -47,7 +47,7 @@ mostrar_tabuleiro(meu_tabuleiro)
 
 #Essa função permite que o jogador posicione seus navios no tabuleiro
 def navios_jogador(tabuleiro):
-    print("Posicione seus navios!")
+    print("Posicione 5 navios!")
     print()
     for _ in range(5):
         linha = int(input("Escolha uma linha (1-5): ")) - 1
