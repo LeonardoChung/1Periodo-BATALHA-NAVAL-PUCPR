@@ -19,7 +19,7 @@ print()
 print(f'O usuário que acertar todos os navios primeiro vence. (ᵔ ᵕ ᵔ).'.center(largura))
 print(f' Boa sorte (＾_＾）'.center(largura, enchimento))
 print()
-time.sleep(1)
+
 #Essas variáveis representam o número de colunas e linhas do tabuleiro do jogo
 colunas = 10
 linhas = 5
@@ -93,7 +93,6 @@ navios = 5
 navios_pc = 5
 pontuacao_jogador = 0
 pontuacao_pc = 0
-time.sleep(1)
 
 print('           SE PREPARE')
 print('           VAMOS COMEÇAR O JOGO!!!')
